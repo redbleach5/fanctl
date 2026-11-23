@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+DerivedData/
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Probe / build artefacts
+probe/gpuburn
+probe/hidtemp
+probe/probe_nopad
+probe/probe_pad
+probe/senscan
+probe/smc_wtest
+probe/smc_wtest2
+
+# Scripts
+scripts/make_icon
+scripts/FanBar.icns
